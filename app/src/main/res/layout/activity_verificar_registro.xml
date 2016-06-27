@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_verificar_registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16sp"
+    android:paddingLeft="16sp"
+    android:paddingBottom="16sp"
+    android:paddingRight="16sp"
+    android:orientation="vertical"
+    tools:context="com.example.gerardomd.formulario.VerificarRegistro">
+
+
+
+
+
+    <TextView
+        android:id="@+id/vnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario"
+        android:text="@string/nombre"/>
+
+
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario2"
+        />
+
+
+    <TextView
+        android:id="@+id/vfechanac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario"
+        android:text="@string/fecha"/>
+
+
+
+
+    <TextView
+        android:id="@+id/fechanac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario2"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/vtelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario"
+        android:text="@string/telefono"/>
+
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario2"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/vemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario"
+        android:text="@string/email"/>
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario2"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/vdireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario"
+        android:text="@string/direccion"/>
+
+
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/formulario2"
+        />
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/editar"
+        android:theme="@style/MiBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/editar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
+
+
+</LinearLayout>
