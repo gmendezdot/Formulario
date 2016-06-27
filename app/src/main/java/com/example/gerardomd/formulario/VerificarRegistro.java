@@ -62,15 +62,6 @@ public class VerificarRegistro extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
-
-
-
 }
 
 
