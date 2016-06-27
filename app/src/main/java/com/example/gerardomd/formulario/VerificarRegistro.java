@@ -54,8 +54,7 @@ public class VerificarRegistro extends AppCompatActivity {
     editar.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(VerificarRegistro.this, MainActivity.class);
-            startActivity(intent);
+            finish();
         }
     });
 
